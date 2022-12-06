@@ -17,6 +17,7 @@ img{
 
 .container{
     padding:20px 16px;
+    overflow: hidden;
 }
 
 .contact-btn{
@@ -68,7 +69,6 @@ nav{
 
 /*Hero Section*/
 .hero{
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,8 +113,7 @@ nav{
     flex-direction: column;
     align-items: center;
     gap:24px;
-    /* position: relative; */
-    width: 100%;
+    position: relative;
 }
 
 .skill{
@@ -126,9 +125,11 @@ nav{
 
 .skills-bg{
     position: absolute;
-    top:1287px;
+    bottom:0px;
     left:189px;
-    width: 100%;
+    width: 530px;
+    z-index: -5;
+    /* display:none; */
 }
 
 .skill-name{
@@ -198,12 +199,13 @@ nav{
         display:grid;
         grid-template-columns: repeat(2,1fr);
         position: relative;
+        border-bottom: 0;
     }
 
     .skills-bg{
         position:absolute;
         bottom: 0;
-        top:0;
+        bottom:0;
         left: 570px;
         width: 530px;
     }

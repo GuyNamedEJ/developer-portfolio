@@ -7,7 +7,6 @@ export default function App()
         <div className="container">
             <Hero />
             <Skills />
-            <Socials />
         </div>
     )
 }

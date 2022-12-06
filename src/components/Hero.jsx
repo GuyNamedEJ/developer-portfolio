@@ -12,12 +12,12 @@ export default function Hero() {
 
       <div className="hero-content">
         <div className="hero-title">
-          <p>Nice to meet you! I'm <span className="underline">Adam Keyes</span>.
+          <p>Nice to meet you! I'm <span className="underline">Emmanuel Milord</span>.
           </p>
         </div>
 
         <p className="hero-text">
-          Based in the UK, I’m a front-end developer passionate about building
+          Based in the Silver Spring, MD, I’m a front-end developer passionate about building
           accessible web apps that users love.
         </p>
         
