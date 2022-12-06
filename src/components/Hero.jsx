@@ -22,7 +22,7 @@ export default function Hero() {
         </p>
         
       </div>
-      <button className="contact-btn">Contact Me</button>
+      <button className="btn">Contact Me</button>
     </section>
   );
 }

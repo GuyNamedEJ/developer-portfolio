@@ -20,7 +20,7 @@ img{
     overflow: hidden;
 }
 
-.contact-btn{
+.btn{
     font-family: 'Space Grotesk', sans-serif;
     text-transform: uppercase;
     border:none;
@@ -33,7 +33,7 @@ img{
     line-height: 26px;
 }
 
-.contact-btn:hover{
+.btn:hover{
     color:hsl(153,71%,59%);
 }
 
@@ -114,6 +114,7 @@ nav{
     align-items: center;
     gap:24px;
     position: relative;
+    margin-bottom:80px;
 }
 
 .skill{
@@ -129,7 +130,6 @@ nav{
     left:189px;
     width: 530px;
     z-index: -5;
-    /* display:none; */
 }
 
 .skill-name{
@@ -141,6 +141,40 @@ nav{
     font-size:16px;
     font-weight: 500;
     line-height: 26px;
+}
+
+/*Projects Section*/
+.projects-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.project-title{
+    font-size: 24px;
+}
+
+.card{
+    margin-bottom: 40px;
+}
+
+.card-btn{
+    display:flex;
+    gap:30px;
+}
+
+.thumbnail{
+    margin-bottom: 20px;
+}
+
+.project-title{
+    margin-bottom: 7px;
+}
+
+.tech{
+    display:flex;
+    gap:18px;
 }
 
 
@@ -215,6 +249,12 @@ nav{
         height:98px;
         align-items: flex-start;
         gap:14px;
+    }
+
+    .card-container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:24px;
     }
 }
 
