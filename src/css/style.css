@@ -233,13 +233,21 @@ textarea{
 .contact-info h1{
     font-size:40px;
     margin-bottom: 20px;
+    letter-spacing: -1.14px;
 }
 
-.contact-info p{
-    font-size: 16px;
+.contact-info > p{
+    font-size: 15px;
     line-height: 26px;
+    font-weight: 500;
     color:gray;
 }
+
+.contact-container{
+    padding:60px 16px;
+}
+
+
 
 textarea:focus{
     border-bottom: 1px solid hsl(153,71%,59%);
@@ -332,6 +340,15 @@ input[type=text]:focus {
         grid-template-columns: repeat(2,1fr);
         gap:24px;
     }
+
+    .contact-container{
+        padding:60px 165px;
+    }
+
+    .social-container
+    {
+        margin:0 30px;
+    }
 }
 
 @media (min-width:1440px)
@@ -394,6 +411,31 @@ input[type=text]:focus {
 
     .skills{
         grid-template-columns: repeat(3,1fr);
+    }
+
+    .contact-info{
+        text-align: left;
+        width:445px;
+    }
+
+    .contact-info>h1{
+        font-size: 88px;
+    }
+
+    .contact-info>p{
+        font-size: 18px;
+    }
+    
+    .contact-container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+
+    .social-container
+    {
+        margin:0 165px;
     }
 
 }

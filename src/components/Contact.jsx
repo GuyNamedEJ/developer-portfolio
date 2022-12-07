@@ -1,8 +1,8 @@
 import Socials from "./Socials";
 export default function Contact() {
   return (
-    <section className="contact container">
-      <div className="contact-container"></div>
+    <section className="contact">
+      <div className="contact-container">
       <div className="contact-info">
         <h1>Contact</h1>
         <p>
@@ -17,7 +17,7 @@ export default function Contact() {
         <textarea placeholder="Message" type="text" />
         <button className="btn">Send Message</button>
       </div>
-
+</div>
       <div className="social-container">
         <Socials />
       </div>

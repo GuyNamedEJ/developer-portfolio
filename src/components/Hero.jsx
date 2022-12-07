@@ -16,7 +16,7 @@ export default function Hero() {
 
       <div className="hero-content">
         <div className="hero-title">
-          <p>Nice to meet you! I'm <span className="underline">Emmanuel Milord</span>.
+          <p>Nice to meet you! I'm <span className="underline">Adam Keyes</span>.
           </p>
         </div>
 
