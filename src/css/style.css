@@ -372,7 +372,7 @@ input[type=text]:focus {
         display: block;
         position: absolute;
         width: 445px;
-        top:0;
+        top:-50px;
         right: 0;
         z-index: -5;
     }
@@ -418,6 +418,11 @@ input[type=text]:focus {
         width:445px;
     }
 
+    .contact{
+        max-width: 1440px;
+        margin:0 auto;
+    }
+
     .contact-info>h1{
         font-size: 88px;
     }
@@ -435,7 +440,7 @@ input[type=text]:focus {
 
     .social-container
     {
-        margin:0 165px;
+       margin: 0 165px;
     }
 
 }
