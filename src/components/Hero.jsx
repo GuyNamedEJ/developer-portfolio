@@ -5,7 +5,11 @@ import DesktopHeroImg from "../assets/image-profile-desktop.webp";
 export default function Hero() {
   return (
     <section className="hero">
+      <div className="hero-nav">
       <Socials />
+      </div>
+      
+      
       <img className="mobile-hero-img" src={MobileHeroImg} alt="" />
       <img className="tablet-hero-img" src={TabletHeroImg} alt="" />
       <img className="desktop-hero-img" src={DesktopHeroImg} alt="" />
