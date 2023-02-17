@@ -24,7 +24,7 @@ export default function Skills() {
       </div>
 
       <div className="skill">
-        <h1 className="skill-name">React</h1>
+        <h1 className="skill-name">React.js</h1>
         <p className="experience">1 Year Experience</p>
       </div>
 

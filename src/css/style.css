@@ -97,6 +97,12 @@ nav{
     margin-bottom: 40px;
 }
 
+.portrait{
+    width:174px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
 .underline{
     text-decoration: underline;
     text-decoration-color: hsl(153,71%,59%) ;
@@ -315,6 +321,16 @@ input[type=text]:focus {
         z-index: -5;
     }
 
+    .portrait{
+        display: block;
+        position: absolute;
+        top:0;
+        right: 0;
+        width: 505px;
+        height: 600px;
+        z-index: -5;
+    }
+
     .skills{
         display:grid;
         grid-template-columns: repeat(2,1fr);
@@ -371,6 +387,15 @@ input[type=text]:focus {
     }
 
     .desktop-hero-img{
+        display: block;
+        position: absolute;
+        width: 505px;
+        top:-50px;
+        right: 0;
+        z-index: -5;
+    }
+
+    .portrait{
         display: block;
         position: absolute;
         width: 445px;

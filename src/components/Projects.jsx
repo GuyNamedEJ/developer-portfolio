@@ -31,8 +31,9 @@ export default function Projects() {
           <div className="card-content">
             <h3 className="project-title">Around The World</h3>
             <div className="tech">
-              <span>Node.js</span>
-              <span>EJS</span>
+              <span>React</span>
+              <span>Tailwind</span>
+              <span>Material UI</span>
               <span>Countries REST API</span>
             </div>
             <div className="card-btn">
@@ -70,6 +71,22 @@ export default function Projects() {
             <div className="card-btn">
             <a target="_blank" href="https://github.com/GuyNamedEJ/tip-calculator-app-main"><button className="btn">View Project</button></a>
             <a target="_blank" href="https://github.com/GuyNamedEJ/clock-app-main"><button className="btn">View Code</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src={RPSPreview} alt="Project 1" className="thumbnail" />
+          <div className="card-content">
+            <h3 className="project-title">Rock, Paper, Scissors</h3>
+            <div className="tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Javascript</span>
+            </div>
+            <div className="card-btn">
+            <a target="_blank" href="https://github.com/GuyNamedEJ/rock-paper-scissors-master"><button className="btn">View Project</button></a>
+            <a target="_blank" href="https://rock-paper-scissors-guynamedej.vercel.app/"><button className="btn">View Code</button></a>
             </div>
           </div>
         </div>
