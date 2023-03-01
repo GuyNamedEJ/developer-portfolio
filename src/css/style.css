@@ -32,6 +32,7 @@ img{
     letter-spacing: 2.29px;
     line-height: 26px;
     transition: color ease-in-out .3s;
+    text-decoration: none;
 }
 
 .btn:hover{
@@ -178,6 +179,10 @@ nav{
 
 .project-title{
     margin-bottom: 7px;
+}
+
+.project-desc{
+    margin:10px 0;
 }
 
 .tech{

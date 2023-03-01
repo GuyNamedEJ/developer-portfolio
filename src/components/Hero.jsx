@@ -4,13 +4,21 @@ import TabletHeroImg from "../assets/image-profile-tablet.webp";
 import DesktopHeroImg from "../assets/image-profile-desktop.webp";
 import Portrait from "../assets/portrait-bw.jpg";
 export default function Hero() {
+  const handleClickScroll = () => {
+    const element = document.getElementById('Projects');
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="hero">
       <div className="hero-nav">
       <Socials />
       </div>
       
-      <img className="portrait" src={Portrait} alt="" />
+      {/* <img className="portrait" src={Portrait} alt="" /> */}
       {/* <img className="mobile-hero-img" src={MobileHeroImg} alt="" /> */}
       {/* <img className="tablet-hero-img" src={TabletHeroImg} alt="" />
       <img className="desktop-hero-img" src={DesktopHeroImg} alt="" /> */}
@@ -26,7 +34,7 @@ export default function Hero() {
           accessible web apps that users love.
         </p>
         
-        <button className="btn">Contact Me</button>
+        <a onClick={handleClickScroll} className="btn">My Projects</a>
       </div>
      
     </section>
