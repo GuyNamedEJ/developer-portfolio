@@ -39,6 +39,11 @@ export default function Skills() {
       </div>
 
       <div className="skill">
+        <h1 className="skill-name">MongoDB</h1>
+        {/* <p className="experience">1 Year Experience</p> */}
+      </div>
+
+      <div className="skill">
         <h1 className="skill-name">Tailwind</h1>
         {/* <p className="experience">1 Year Experience</p> */}
       </div>
