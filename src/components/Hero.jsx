@@ -2,7 +2,7 @@ import Socials from "./Socials";
 import MobileHeroImg from "../assets/image-profile-mobile.webp";
 import TabletHeroImg from "../assets/image-profile-tablet.webp";
 import DesktopHeroImg from "../assets/image-profile-desktop.webp";
-import Portrait from "../assets/portrait-bw.jpg";
+import Portrait from "../assets/headshot.jpg";
 export default function Hero() {
   const handleClickScroll = () => {
     const element = document.getElementById('Projects');
@@ -18,7 +18,7 @@ export default function Hero() {
       <Socials />
       </div>
       
-      {/* <img className="portrait" src={Portrait} alt="" /> */}
+      <img className="portrait" src={Portrait} alt="" />
       {/* <img className="mobile-hero-img" src={MobileHeroImg} alt="" /> */}
       {/* <img className="tablet-hero-img" src={TabletHeroImg} alt="" />
       <img className="desktop-hero-img" src={DesktopHeroImg} alt="" /> */}
