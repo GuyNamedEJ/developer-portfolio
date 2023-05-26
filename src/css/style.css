@@ -329,10 +329,9 @@ input[type=text]:focus {
     .portrait{
         display: block;
         position: absolute;
-        top:0;
+        width: 445px;
+        top:-50px;
         right: 0;
-        width: 505px;
-        height: 600px;
         z-index: -5;
     }
 
