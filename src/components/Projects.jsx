@@ -13,7 +13,7 @@ export default function Projects() {
       </div>
       <div className="card-container">
         <div className="card">
-          <img src={Planets} alt="Project 1" className="thumbnail" />
+          <img src="https://github.com/GuyNamedEJ/GuyNamedEJ/raw/main/planets-prev.gif" alt="Project 1" className="thumbnail" />
           <div className="card-content">
             <h3 className="project-title">The Planets</h3>
             <div className="tech">
@@ -29,7 +29,7 @@ export default function Projects() {
         </div>
 
         <div className="card">
-          <img src={AroundTheWorld} alt="Project 1" className="thumbnail" />
+          <img src="https://raw.githubusercontent.com/GuyNamedEJ/GuyNamedEJ/main/country-prev.gif" alt="Project 1" className="thumbnail" />
           <div className="card-content">
             <h3 className="project-title">Around The World</h3>
             <div className="tech">
@@ -47,7 +47,7 @@ export default function Projects() {
         </div>
 
         <div className="card">
-          <img src={Splitter} alt="Project 1" className="thumbnail" />
+          <img src="https://github.com/GuyNamedEJ/GuyNamedEJ/raw/main/splitter-prev.gif" alt="Project 1" className="thumbnail" />
           <div className="card-content">
             <h3 className="project-title">Splitter Calculator</h3>
             <div className="tech">
@@ -64,7 +64,7 @@ export default function Projects() {
         </div>
 
         <div className="card">
-          <img src={ClockApp} alt="Project 1" className="thumbnail" />
+          <img src="https://github.com/GuyNamedEJ/GuyNamedEJ/raw/main/clock-prev.gif" alt="Project 1" className="thumbnail" />
           <div className="card-content">
             <h3 className="project-title">Clock App</h3>
             <div className="tech">
@@ -81,7 +81,7 @@ export default function Projects() {
         </div>
 
         <div className="card">
-          <img src={RPSPreview} alt="Project 1" className="thumbnail" />
+          <img src="https://github.com/GuyNamedEJ/rock-paper-scissors-master/blob/master/rps-prev.gif?raw=true" alt="Project 1" className="thumbnail" />
           <div className="card-content">
             <h3 className="project-title">Rock, Paper, Scissors</h3>
             <div className="tech">
@@ -98,7 +98,7 @@ export default function Projects() {
         </div>
 
         <div className="card">
-          <img src={Galleria} alt="Project 1" className="thumbnail" />
+          <img src="https://github.com/GuyNamedEJ/Galleria/blob/master/galleria-prev.gif?raw=true" alt="Project 1" className="thumbnail" />
           <div className="card-content">
             <h3 className="project-title">Art Galleria</h3>
             <div className="tech">
@@ -108,7 +108,7 @@ export default function Projects() {
             <p class="project-desc">Art Gallery slideshow site that gives information on different paintings. Data taken from a JSON file</p>
             <div className="card-btn">
             <a target="_blank" href="https://ej-galleria.netlify.app/"><button className="btn">View Project</button></a>
-            <a target="_blank" href="https://github.com/GuyNamedEJ/rock-paper-scissors-master"><button className="btn">View Code</button></a>
+            <a target="_blank" href="https://github.com/GuyNamedEJ/Galleria"><button className="btn">View Code</button></a>
             </div>
           </div>
         </div>
